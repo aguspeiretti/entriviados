@@ -1,0 +1,93 @@
+[
+    {
+        "pregunta":"¿Cuántos litros de sangre tiene una persona adulta?",
+        "opciones":[ "Tiene entre 2 y 4 litros" ,
+                     "Tiene entre 4 y 6 litros" ,
+                     "Tiene 10 litros" ,
+                     "Tiene 7 litros" ,
+                     "Tiene 0,5 litros"],
+        "respuesta":"Tiene entre 4 y 6 litros"
+    },
+    
+    {
+        "pregunta":"¿Quién es el autor de la frase Pienso, luego existo?",
+        "opciones":[ "Platón" ,
+                     "Galileo Galilei" ,
+                     "Descartes" ,
+                     "Sócrates" ,
+                     "Francis Bacon"],
+        "respuesta":"Descartes"
+    },
+    {
+        "pregunta":"¿Cuál es el país más grande y el más pequeño del mundo?",
+        "opciones":[ "Rusia y Vaticano" ,
+                     "China y Nauru" ,
+                     "Canadá y Mónaco" ,
+                     "Estados Unidos y Malta" ,
+                     "India y San Marino"],
+        "respuesta":"Rusia y Vaticano"
+    },
+    {
+        "pregunta":"¿Cuál es el grupo de palabras escritas correctamente?",
+        "opciones":[ "Metamorfosis, extranjero, diversidac, equilivrio" ,
+                     "Metaformosis, estranjero, diversidad, ekilibrio" ,
+                     "Metamorfosis, extrangero, dibersidad, equilibrio" ,
+                     "Metamorfosis, extranjero, diversidad, equilibrio" ,
+                     "Metamórfosis, eztranjero, divérsidad, ecuilibrio"],
+        "respuesta":"Metamorfosis, extranjero, diversidad, equilibrio"
+    },
+    {
+        "pregunta":"¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+        "opciones":[ "El Señor de los Anillos" ,
+                     "Don Quijote de la Mancha" ,
+                     "El Principito" ,
+                     "Cien años de Soledad" ,
+                     "La Odisea"],
+        "respuesta":"Don Quijote de la Mancha"
+    },
+    {
+        "pregunta":"¿Cuántos decimales tiene el número pi π?",
+        "opciones":[ "Dos" ,
+                     "Cien" ,
+                     "Infinitos" ,
+                     "Mil" ,
+                     "Veinte"],
+        "respuesta":"infinitos"
+    },
+    {
+        "pregunta":"La sal común está formada por dos elementos, ¿cuáles son?",
+        "opciones":[ "Sodio y potasio" ,
+                     "Sodio y cloro" ,
+                     "Sodio y carbono" ,
+                     "Potasio y cloro" ,
+                     "Cristal y sodio."],
+        "respuesta":"Sodio y cloro"
+    },
+    {
+        "pregunta":"¿Cuántos jugadores por equipo participan en un partido de voleibol?",
+        "opciones":[ "2 jugadores" ,
+                     "3 jugadores" ,
+                     "4 jugadores" ,
+                     "5 jugadores" ,
+                     "6 jugadores"],
+        "respuesta":"6 jugadores"
+    },
+    {
+        "pregunta":" ¿Cuáles son los representantes más destacados de la literatura renacentista?",
+        "opciones":[ "Miguel de Cervantes, William Shakespeare, Luis de Camões" ,
+                     "Leonardo da Vinci, Miguel Angel Buonarroti, Sandro Boticelli" ,
+                     "Caravaggio, Bernini, Borromini" ,
+                     "Goethe, Victor Hugo, Gustavo Adolfo Bécquer" ,
+                     "Jorge Isaac, José Martí, Eduardo Blanco"],
+        "respuesta":"Miguel de Cervantes, William Shakespeare, Luis de Camões"
+    },
+    {
+        "pregunta":" ¿Quién pintó la obra Guernica?",
+        "opciones":[ "Paul Cézanne" ,
+                     "Pablo Picasso" ,
+                     "Diego Rivera" ,
+                     "Salvador Dalí" ,
+                     "Frida Kahlo"],
+        "respuesta":"Pablo Picasso"
+    }
+]

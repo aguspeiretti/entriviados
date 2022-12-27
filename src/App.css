@@ -1,5 +1,12 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url(./assets/mikado.otf);
+}
+
 .App {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Lato";
 }
