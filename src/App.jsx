@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./pages/home/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Parametros from "./pages/parameros/Parametros";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Parametros />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.dropdawn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdawn button {
+  background-color: #ff9000;
+  border: 3px solid hsla(0, 0%, 100%, 0.314);
+  border-radius: 1em;
+  box-shadow: 2px 5px rgb(0 0 0 / 19%);
+  color: #fff;
+  font-family: "Lato";
+  font-size: 1.4em;
+  padding: 10px 15px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 13%);
+  text-transform: uppercase;
+  margin-top: 10px;
+  text-align: center;
+}
+.show {
+  width: 100%;
+  background-color: #864cbf;
+}
+.show button {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  color: white;
+}

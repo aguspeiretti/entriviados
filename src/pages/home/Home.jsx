@@ -10,10 +10,15 @@ const Home = () => {
         <div className="texto-container">
           <h1 className="titulo">ENTRIVIADOS</h1>
           <h4>
-            Bienvenidos a Entriviados aprede y divertite decidi tu campo y
-            dificultad y testea tu cerebro buena suerte
+            Bienvenidos a Entriviados, aprede y divertite, decidi tu campo y
+            dificultad y testea tu cerebro buena suerte.
           </h4>
-          <button className="juguemos">JUGUEMOS</button>
+          <button
+            className="
+          "
+          >
+            JUGUEMOS!
+          </button>
         </div>
       </div>
     </div>
