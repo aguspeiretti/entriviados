@@ -2,6 +2,9 @@
   font-family: "Lato";
   src: local("Lato"), url(./assets/mikado.otf);
 }
+* {
+  font-family: "Lato";
+}
 
 .App {
   margin: 0;

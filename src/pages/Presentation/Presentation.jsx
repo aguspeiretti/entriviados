@@ -1,7 +1,7 @@
 import React from "react";
-import "./cuestionario.css";
+import "./presentation.css";
 
-const Cuestionario = () => {
+const Presentation = () => {
   return (
     <div className="primera-hoja-container">
       <div className="imput-container">
@@ -13,4 +13,4 @@ const Cuestionario = () => {
   );
 };
 
-export default Cuestionario;
+export default Presentation;

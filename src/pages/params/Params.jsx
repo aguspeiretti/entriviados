@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import Dropdawm from "../../Components/Dropdawm";
-import "./parametros.css";
+import Dropdawm from "../../Components/dropDawn/Dropdawm";
+import "./params.css";
 
-const Parametros = () => {
+const Params = () => {
   const categorias = [
     "Entretenimiento",
     "Arte",
@@ -43,4 +42,4 @@ const Parametros = () => {
   );
 };
 
-export default Parametros;
+export default Params;

@@ -1,11 +1,11 @@
 [
     {
         "pregunta":"¿Cuántos litros de sangre tiene una persona adulta?",
-        "opciones":[ "Tiene entre 2 y 4 litros" ,
-                     "Tiene entre 4 y 6 litros" ,
-                     "Tiene 10 litros" ,
-                     "Tiene 7 litros" ,
-                     "Tiene 0,5 litros"],
+        "opciones":[ { "opciones" :"Tiene entre 2 y 4 litros" ,"correcta":false} ,
+                     { "opciones" :"Tiene entre 4 y 6 litros" ,"correcta":true} ,
+                     { "opciones" :"Tiene 10 litros" ,"correcta":false },
+                     { "opciones" :"Tiene 7 litros" ,"correcta":false} ,
+                     { "opciones" :"Tiene 0,5 litros" ,"correcta":false}],
         "respuesta":"Tiene entre 4 y 6 litros"
     },
     

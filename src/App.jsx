@@ -1,11 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Parametros from "./pages/parameros/Parametros";
+import Game from "./pages/game/Game";
 
 function App() {
   return (
     <div className="App">
-      <Parametros />
+      <Game />
     </div>
   );
 }
