@@ -2,7 +2,8 @@ import { NavLink } from "react-router-dom";
 import Dropdawm from "../../Components/dropDawn/Dropdawm";
 import "./params.css";
 
-const Params = () => {
+const Params = ({ valor }) => {
+  console.log(valor);
   const categorias = [
     "Entretenimiento",
     "Arte",
@@ -13,13 +14,13 @@ const Params = () => {
   ];
   const niveles = ["FACIL", "INTERMEDIO", "DIFICIL", "EXPERTO", "RANDOM"];
 
-  const segundos = [30, 60, 90];
+  const segundos = [10, 20, 30];
 
   return (
     <div className="parametros-container">
       <div className="contenedor-gral">
         <div className="saludo">
-          <h2>HOLA AGUSTIN!!</h2>
+          <h2>{valor}</h2>
         </div>
         <div className="avatar-container">
           <img src="" alt="" />
