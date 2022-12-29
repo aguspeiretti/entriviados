@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import Dropdawm from "../../components/dropDawn/Dropdawm";
+import Dropdawm from "../../Components/dropDawn/Dropdawm";
 import "./params.css";
-import Profile from "../../components/profile/Profile";
 import { useAuth0 } from "@auth0/auth0-react";
+import avatar from "../../assets/avatarme.jpg";
 
 const Params = () => {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { user, isAuthenticated } = useAuth0();
 
   const categorias = [
     "Entretenimiento",
@@ -23,10 +23,14 @@ const Params = () => {
     <div className="parametros-container">
       <div className="contenedor-gral">
         <div className="saludo">
-          <h2>{user.name}</h2>
+          {isAuthenticated ? <h2>{user.name}</h2> : <h2>Jhon doe</h2>}
         </div>
         <div className="avatar-container">
-          <img src={user.picture} alt="" />
+          {isAuthenticated ? (
+            <img src={user.picture} alt="" />
+          ) : (
+            <img src={avatar} alt="" />
+          )}
         </div>
         <div className="categorias-container">
           <div className="dropdawn1">
