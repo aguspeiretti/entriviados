@@ -69,3 +69,16 @@
 .answers .incorrect {
   background-color: #e21b3c;
 }
+.volver {
+  background-color: #ff9000;
+  border: 3px solid hsla(0, 0%, 100%, 0.314);
+  border-radius: 1em;
+  box-shadow: 2px 5px rgb(0 0 0 / 19%);
+  color: #fff;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 15px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 13%);
+  text-transform: uppercase;
+}

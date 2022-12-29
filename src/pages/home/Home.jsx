@@ -1,5 +1,6 @@
 import "./home.css";
 import arrow from "../../assets/meesees.png";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,12 +14,9 @@ const Home = () => {
             Bienvenidos a Entriviados, aprede y divertite, decidi tu campo y
             dificultad y testea tu cerebro buena suerte.
           </h4>
-          <button
-            className="
-          "
-          >
-            JUGUEMOS!
-          </button>
+          <NavLink to={"/TuNombre"}>
+            <button className="juguemos">JUGUEMOS!</button>
+          </NavLink>
         </div>
       </div>
     </div>

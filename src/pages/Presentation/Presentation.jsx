@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./presentation.css";
 
 const Presentation = () => {
@@ -7,7 +8,10 @@ const Presentation = () => {
       <div className="imput-container">
         <h2>HOLA UN GUSTO CONOCERTE CUAL ES TU NOMBRE??</h2>
         <input type="text" placeholder="Ingresa tu nombre" />
-        <button>ENVIAR</button>
+        <NavLink to={"/Parametros"}>
+          {" "}
+          <button>ENVIAR</button>{" "}
+        </NavLink>
       </div>
     </div>
   );

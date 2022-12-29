@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Dropdawm from "../../Components/dropDawn/Dropdawm";
 import "./params.css";
 
@@ -35,7 +36,9 @@ const Params = () => {
           <Dropdawm titulo={"ELIGE LOS SEGUNDOS"} categorias={segundos} />
         </div>
         <div className="empecemos-button">
-          <button className="empesemos">EMPECEMOS!</button>
+          <NavLink to={"/Game"}>
+            <button className="empesemos">EMPECEMOS!</button>
+          </NavLink>
         </div>
       </div>
     </div>
