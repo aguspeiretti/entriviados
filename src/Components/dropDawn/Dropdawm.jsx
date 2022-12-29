@@ -17,7 +17,7 @@ const Dropdawm = ({ titulo, categorias }) => {
 
   const elegido = (e) => {
     console.log(e.target.value);
-    localStorage.setItem(`${e.target.value}`, e.target.value);
+    localStorage.setItem(`${titulo}`, e.target.value);
   };
   return (
     <div className="dropdawn">
