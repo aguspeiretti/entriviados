@@ -1,6 +1,8 @@
 import "./home.css";
 import arrow from "../../assets/meesees.png";
 import { NavLink } from "react-router-dom";
+import Login from "../../components/login/Login";
+import Logout from "../../components/logout/Logout";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
           <NavLink to={"/TuNombre"}>
             <button className="juguemos">JUGUEMOS!</button>
           </NavLink>
+          <Login />
+          <Logout />
         </div>
       </div>
     </div>
