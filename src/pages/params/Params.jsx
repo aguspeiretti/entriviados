@@ -28,7 +28,7 @@ const Params = () => {
           {isAuthenticated ? (
             <h2>{`hola ${user.name}!!`}</h2>
           ) : (
-            <h2>{`hola ${nombre}!!`}</h2>
+            <h2>{nombre ? `hola ${nombre}!!` : `hola SIN NOMBRE :(`}</h2>
           )}
         </div>
         <div className="avatar-container">
