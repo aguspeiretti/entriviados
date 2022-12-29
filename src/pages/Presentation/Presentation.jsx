@@ -7,9 +7,10 @@ const Presentation = () => {
 
   const handleInput = ({ target }) => {
     setTexto(target.value);
-    console.log(texto);
   };
-
+  const handleSubmit = (e) => {
+    localStorage.setItem("nombre", texto);
+  };
   return (
     <div className="primera-hoja-container">
       <div className="imput-container">
@@ -20,9 +21,8 @@ const Presentation = () => {
           value={texto}
           onChange={handleInput}
         />
-        <NavLink to={"/Parametros"} valor={texto}>
-          {" "}
-          <button>ENVIAR</button>{" "}
+        <NavLink to={"/Parametros"}>
+          <button onClick={handleSubmit}>ENVIAR</button>
         </NavLink>
       </div>
     </div>

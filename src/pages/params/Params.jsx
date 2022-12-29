@@ -7,6 +7,8 @@ import avatar from "../../assets/avatarme.jpg";
 const Params = () => {
   const { user, isAuthenticated } = useAuth0();
 
+  const nombre = localStorage.getItem("nombre");
+
   const categorias = [
     "Entretenimiento",
     "Arte",
@@ -23,7 +25,11 @@ const Params = () => {
     <div className="parametros-container">
       <div className="contenedor-gral">
         <div className="saludo">
-          {isAuthenticated ? <h2>{user.name}</h2> : <h2>Jhon doe</h2>}
+          {isAuthenticated ? (
+            <h2>{`hola ${user.name}!!`}</h2>
+          ) : (
+            <h2>{`hola ${nombre}!!`}</h2>
+          )}
         </div>
         <div className="avatar-container">
           {isAuthenticated ? (

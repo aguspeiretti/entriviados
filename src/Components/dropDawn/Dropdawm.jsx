@@ -9,11 +9,15 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Dropdawm = ({ titulo, categorias }) => {
-  console.log(categorias);
   const [dropdawn, setDropdawn] = useState(false);
 
   const abrircerrardropdawn = () => {
     setDropdawn(!dropdawn);
+  };
+
+  const elegido = (e) => {
+    console.log(e.target.value);
+    localStorage.setItem(`${e.target.value}`, e.target.value);
   };
   return (
     <div className="dropdawn">
@@ -21,7 +25,13 @@ const Dropdawm = ({ titulo, categorias }) => {
         <DropdownToggle caret> {titulo} </DropdownToggle>
         <DropdownMenu>
           {categorias?.map((el) => (
-            <DropdownItem>"{el}"</DropdownItem>
+            <DropdownItem>
+              "
+              <button value={el} onClick={elegido} className="boton-dropdown">
+                {el}
+              </button>
+              "
+            </DropdownItem>
           ))}
         </DropdownMenu>
       </Dropdown>
