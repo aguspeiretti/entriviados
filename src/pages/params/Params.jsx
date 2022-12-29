@@ -42,9 +42,9 @@ const Params = () => {
           <div className="dropdawn1">
             <Dropdawm titulo={"ELIGE UNA CATEGORIA"} categorias={categorias} />
           </div>
-          <div className="dropdawn2">
+          {/* <div className="dropdawn2">
             <Dropdawm titulo={"ELIGE UNA DIFICULTAD"} categorias={niveles} />
-          </div>
+          </div> */}
         </div>
         <div className="tiempo">
           <Dropdawm titulo={"ELIGE LOS SEGUNDOS"} categorias={segundos} />
