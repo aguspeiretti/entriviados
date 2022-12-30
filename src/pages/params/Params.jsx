@@ -11,8 +11,8 @@ const Params = () => {
 
   const categorias = [
     "Entretenimiento",
-    "Arte",
-    "ciencias",
+    "Geografia",
+    "Ciencias",
     "Deportes",
     "Historia",
     "Random",
