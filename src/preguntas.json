@@ -34,16 +34,7 @@
                     { "opciones": "Metamorfosis, extrangero, dibersidad, equilibrio", "correcta":false} ,
                     { "opciones": "Metamorfosis, extranjero, diversidad, equilibrio", "correcta":true} ,
                     { "opciones": "Metamórfosis, eztranjero, divérsidad, ecuilibrio", "correcta":false}],
-        "categoria":"Entretenimiento"
-    },
-    {
-        "pregunta":"¿Cuál es el libro más vendido en el mundo después de la Biblia?",
-        "opciones":[ { "opciones":"El Señor de los Anillos"  , "correcta":false},
-                     { "opciones":"Don Quijote de la Mancha"  , "correcta":true},
-                     { "opciones":"El Principito"  , "correcta":false},
-                     { "opciones":"Cien años de Soledad" , "correcta":false },
-                     { "opciones":"La Odisea" , "correcta":false}],
-        "categoria":"Historia"
+        "categoria":"General"
     },
     {
         "pregunta":"¿Cuántos decimales tiene el número pi π?",
@@ -55,13 +46,22 @@
         "categoria":"Ciencias"
     },
     {
-        "pregunta":"La sal común está formada por dos elementos, ¿cuáles son?",
-        "opciones":[ {"opciones":"Sodio y potasio","correcta":false },
-                     {"opciones":"Sodio y cloro","correcta":true },
-                     {"opciones":"Sodio y carbono","correcta":false },
-                     {"opciones":"Potasio y cloro","correcta":false },
-                     {"opciones":"Cristal y sodio.","correcta":false}],
-        "categoria":"Ciencias"
+        "pregunta":"¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+        "opciones":[ { "opciones":"El Señor de los Anillos"  , "correcta":false},
+                     { "opciones":"Don Quijote de la Mancha"  , "correcta":true},
+                     { "opciones":"El Principito"  , "correcta":false},
+                     { "opciones":"Cien años de Soledad" , "correcta":false },
+                     { "opciones":"La Odisea" , "correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la nacionalidad de Jorge Mario Bergoglio?",
+        "opciones":[ {"opciones":"Cubana","correcta":false },
+                     {"opciones":"Italiana","correcta":false },
+                     {"opciones":"Española","correcta":false },
+                     {"opciones":"Mexicana","correcta":false },
+                     {"opciones":"Argentina","correcta":true}],
+        "categoria":"Geografia"
     },
     {
         "pregunta":"¿Cuántos jugadores por equipo participan en un partido de voleibol?",
@@ -70,8 +70,19 @@
                      {"opciones":"4 jugadores","correcta":false },
                      {"opciones":"5 jugadores","correcta":false },
                      {"opciones":"6 jugadores","correcta":true}],
-        "categoria":"Deportes"
+        "categoria":"General"
     },
+
+    {
+        "pregunta":"La sal común está formada por dos elementos, ¿cuáles son?",
+        "opciones":[ {"opciones":"Sodio y potasio","correcta":false },
+                     {"opciones":"Sodio y cloro","correcta":true },
+                     {"opciones":"Sodio y carbono","correcta":false },
+                     {"opciones":"Potasio y cloro","correcta":false },
+                     {"opciones":"Cristal y sodio.","correcta":false}],
+        "categoria":"Ciencias"
+    },
+
     {
         "pregunta":" ¿Cuáles son los representantes más destacados de la literatura renacentista?",
         "opciones":[ {"opciones":"Miguel de Cervantes, William Shakespeare, Luis de Camões","correcta":true },
@@ -82,6 +93,33 @@
         "categoria":"Historia"
     },
     {
+        "pregunta":"¿Cuál es la montaña más alta del continente americano?",
+        "opciones":[ {"opciones":"Monte Everest","correcta":false },
+                     {"opciones":"Aconcagua","correcta":true },
+                     {"opciones":"Pico Neblina","correcta":false },
+                     {"opciones":"Pico Bolívar","correcta":false },
+                     {"opciones":"Monte Fuji","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":"¿A quién se le atribuye la frase 'Solo sé que no sé nada'?",
+        "opciones":[ {"opciones":"Aristóteles","correcta":false },
+                     {"opciones":"Nietszche","correcta":false },
+                     {"opciones":"Sófocles","correcta":false },
+                     {"opciones":"Salomón","correcta":false },
+                     {"opciones":"Sócrates","correcta":true}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":". ¿Cuál es la velocidad de la luz?",
+        "opciones":[ {"opciones":"300 000 000 metros por segundo","correcta":false },
+                     {"opciones":"150 000 000 metros por segundo","correcta":false },
+                     {"opciones":"199 792 458 metros por segundo","correcta":false },
+                     {"opciones":"299 792 458 metros por segundo","correcta":true },
+                     {"opciones":"350 000 000 metros por segundo","correcta":false}],
+        "categoria":"Ciencias"
+    },
+    {
         "pregunta":" ¿Quién pintó la obra Guernica?",
         "opciones":[{"opciones": "Paul Cézanne","correcta":false },
                     {"opciones": "Pablo Picasso","correcta":true },
@@ -89,5 +127,95 @@
                     {"opciones": "Salvador Dalí","correcta":false },
                     {"opciones": "Frida Kahlo","correcta":false}],
         "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿En qué país de África el español es la lengua oficial?",
+        "opciones":[ {"opciones":"Costa de Marfil","correcta":false },
+                     {"opciones":"Sierra Leona","correcta":false },
+                     {"opciones":"Guinea ecuatorial","correcta":true },
+                     {"opciones":"Cabo Verde","correcta":false },
+                     {"opciones":"Liberia","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Qué hora es en inglés 'It is a quarter past six'?",
+        "opciones":[ {"opciones":"6:15","correcta":true },
+                     {"opciones":"3:46","correcta":false },
+                     {"opciones":"6:45","correcta":false },
+                     {"opciones":"5:15","correcta":false },
+                     {"opciones":"5:45","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el animal terrestre más grande en la actualidad?",
+        "opciones":[ {"opciones":"Jirafa","correcta":false },
+                     {"opciones":"Tiburón blanco","correcta":false },
+                     {"opciones":"Diplodocus","correcta":false },
+                     {"opciones":"Ballena azul","correcta":false },
+                     {"opciones":"Elefante africano","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":" ¿Quién es el autor de 'El Príncipe'?",
+        "opciones":[{"opciones": "Antoine de Saint-Exupery","correcta":false },
+                    {"opciones": "Charles de Gales","correcta":false },
+                    {"opciones": "Friedrich Nietzche","correcta":false },
+                    {"opciones": "Nicolás Maquiavelo","correcta":true },
+                    {"opciones": "Dante Allighieri","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuáles de estas construcciones famosas quedan en los Estados Unidos?",
+        "opciones":[ {"opciones":"Lincoln Memorial, Sydney Opera House, Burj Khalifa","correcta":false },
+                     {"opciones":"Torre Eiffel, Museo Guggenheim, Abadía de Westminter","correcta":false },
+                     {"opciones":"Estatua de la Libertad, puente Golden Gate, Empire State Building","correcta":true },
+                     {"opciones":"Dancing House, 30 st Mary Axe, La Casa Blanca","correcta":false },
+                     {"opciones":"La ciudad prohibida, la Sagrada Familia, el Panteón","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuál es la conjugación del verbo 'caber' en la primera persona del singular del presente indicativo?",
+        "opciones":[ {"opciones":"Yo quepo","correcta":true },
+                     {"opciones":"Yo cabo","correcta":false },
+                     {"opciones":"Nosotros cabemos","correcta":false },
+                     {"opciones":"Nosotros quepamos","correcta":false },
+                     {"opciones":"Yo cabé","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
     }
 ]
