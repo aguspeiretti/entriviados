@@ -89,3 +89,8 @@
     -webkit-transform: scale(0.9);
   }
 }
+@media (max-width: 750px) {
+  .contenedor-gral {
+    height: 90%;
+  }
+}
