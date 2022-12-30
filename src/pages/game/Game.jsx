@@ -2,13 +2,24 @@ import React, { useEffect, useState } from "react";
 import "./game.css";
 import preguntas from "../../preguntas.json";
 import { NavLink } from "react-router-dom";
+
 const Game = () => {
+  const category = localStorage.getItem("ELIGE UNA CATEGORIA");
+  const time = localStorage.getItem("ELIGE LOS SEGUNDOS");
   const [preguntaActual, setPreguntaActual] = useState(0);
   const [puntuacion, setPuntuacion] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
-  const [tiempoRestante, setTiempoRestante] = useState(5);
-  const respuestaCorrecta = preguntas[preguntaActual].opciones.filter(
+  const [tiempoRestante, setTiempoRestante] = useState(time);
+  let categoriaElegida = [];
+  if (category === "Random") {
+    categoriaElegida = preguntas;
+  } else {
+    categoriaElegida = preguntas.filter(
+      (question) => question.categoria === category
+    );
+  }
+  const respuestaCorrecta = categoriaElegida[preguntaActual].opciones.filter(
     (preg) => preg.correcta === true
   );
 
@@ -22,14 +33,14 @@ const Game = () => {
     //cambiar a la siguiente pregunta
 
     setTimeout(() => {
-      if (preguntaActual === preguntas.length - 1) {
+      if (preguntaActual === categoriaElegida.length - 1) {
         setIsFinished(true);
       } else {
         setPreguntaActual(preguntaActual + 1);
         e.target.classList.remove(correcta ? "correct" : "incorrect");
         setMostrarRespuesta(mostrarRespuesta);
       }
-      setTiempoRestante(5);
+      setTiempoRestante(time);
     }, 1500);
 
     //mostrar correcta
@@ -41,11 +52,11 @@ const Game = () => {
     const interval = setInterval(() => {
       if (tiempoRestante > 0) setTiempoRestante((prev) => prev - 1);
       if (tiempoRestante === 0) {
-        if (preguntaActual === preguntas.length - 1) {
+        if (preguntaActual === categoriaElegida.length - 1) {
           setIsFinished(true);
         } else {
           setPreguntaActual(preguntaActual + 1);
-          setTiempoRestante(5);
+          setTiempoRestante(time);
         }
       }
     }, 1000);
@@ -59,7 +70,7 @@ const Game = () => {
     return (
       <div className="game-container">
         <div className="info-container resultado">
-          obtuviste {puntuacion} de {preguntas.length}
+          obtuviste {puntuacion} de {categoriaElegida.length}
         </div>
         <NavLink to={"/"}>
           <button className="volver">VOLVER A JUGAR</button>
@@ -74,7 +85,7 @@ const Game = () => {
           <div className="first-div">
             <div className="number-cuestion">
               <span className="number">
-                pregunta {preguntaActual + 1} de {preguntas.length}
+                pregunta {preguntaActual + 1} de {categoriaElegida.length}
               </span>
             </div>
             <div className="time">{tiempoRestante} seg</div>
@@ -82,10 +93,10 @@ const Game = () => {
           <div className="question">
             {mostrarRespuesta
               ? `RESPUESTA : ${respuestaCorrecta[0].opciones}`
-              : preguntas[preguntaActual].pregunta}
+              : categoriaElegida[preguntaActual].pregunta}
           </div>
           <div className="answers">
-            {preguntas[preguntaActual].opciones.map((el) => (
+            {categoriaElegida[preguntaActual].opciones.map((el) => (
               <button onClick={(e) => handleSubmit(el.correcta, e)}>
                 {el.opciones}
               </button>

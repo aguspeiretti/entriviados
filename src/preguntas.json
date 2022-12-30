@@ -6,7 +6,7 @@
                      { "opciones" :"Tiene 10 litros" ,"correcta":false },
                      { "opciones" :"Tiene 7 litros" ,"correcta":false} ,
                      { "opciones" :"Tiene 0,5 litros" ,"correcta":false}],
-        "respuesta":"Tiene entre 4 y 6 litros"
+        "categoria":"Ciencias"
     },
     
     {
@@ -16,7 +16,7 @@
                      {"opciones" :"Descartes" ,"correcta":true},
                      {"opciones" :"Sócrates" ,"correcta":false},
                      {"opciones" :"Francis Bacon","correcta":false}],
-        "respuesta":"Descartes"
+        "categoria":"Historia"
     },
     {
         "pregunta":"¿Cuál es el país más grande y el más pequeño del mundo?",
@@ -25,7 +25,7 @@
                      {"opciones":"Canadá y Mónaco"  ,"correcta":false},
                      {"opciones":"Estados Unidos y Malta" ,"correcta":false} ,
                      {"opciones":"India y San Marino" ,"correcta":false}],
-        "respuesta":"Rusia y Vaticano"
+        "categoria":"Geografia"
     },
     {
         "pregunta":"¿Cuál es el grupo de palabras escritas correctamente?",
@@ -34,7 +34,7 @@
                     { "opciones": "Metamorfosis, extrangero, dibersidad, equilibrio", "correcta":false} ,
                     { "opciones": "Metamorfosis, extranjero, diversidad, equilibrio", "correcta":true} ,
                     { "opciones": "Metamórfosis, eztranjero, divérsidad, ecuilibrio", "correcta":false}],
-        "respuesta":"Metamorfosis, extranjero, diversidad, equilibrio"
+        "categoria":"Entretenimiento"
     },
     {
         "pregunta":"¿Cuál es el libro más vendido en el mundo después de la Biblia?",
@@ -43,7 +43,7 @@
                      { "opciones":"El Principito"  , "correcta":false},
                      { "opciones":"Cien años de Soledad" , "correcta":false },
                      { "opciones":"La Odisea" , "correcta":false}],
-        "respuesta":"Don Quijote de la Mancha"
+        "categoria":"Historia"
     },
     {
         "pregunta":"¿Cuántos decimales tiene el número pi π?",
@@ -52,7 +52,7 @@
                      { "opciones":"Infinitos" , "correcta":true},
                      { "opciones":"Mil" , "correcta":false},
                      { "opciones":"Veinte","correcta":false}],
-        "respuesta":"infinitos}"
+        "categoria":"Ciencias"
     },
     {
         "pregunta":"La sal común está formada por dos elementos, ¿cuáles son?",
@@ -61,7 +61,7 @@
                      {"opciones":"Sodio y carbono","correcta":false },
                      {"opciones":"Potasio y cloro","correcta":false },
                      {"opciones":"Cristal y sodio.","correcta":false}],
-        "respuesta":"Sodio y cloro"
+        "categoria":"Ciencias"
     },
     {
         "pregunta":"¿Cuántos jugadores por equipo participan en un partido de voleibol?",
@@ -70,7 +70,7 @@
                      {"opciones":"4 jugadores","correcta":false },
                      {"opciones":"5 jugadores","correcta":false },
                      {"opciones":"6 jugadores","correcta":true}],
-        "respuesta":"6 jugadores"
+        "categoria":"Deportes"
     },
     {
         "pregunta":" ¿Cuáles son los representantes más destacados de la literatura renacentista?",
@@ -79,7 +79,7 @@
                      {"opciones":"Caravaggio, Bernini, Borromini","correcta":false },
                      {"opciones":"Goethe, Victor Hugo, Gustavo Adolfo Bécquer","correcta":false },
                      {"opciones":"Jorge Isaac, José Martí, Eduardo Blanco","correcta":false}],
-        "respuesta":"Miguel de Cervantes, William Shakespeare, Luis de Camões"
+        "categoria":"Historia"
     },
     {
         "pregunta":" ¿Quién pintó la obra Guernica?",
@@ -88,6 +88,6 @@
                     {"opciones": "Diego Rivera","correcta":false },
                     {"opciones": "Salvador Dalí","correcta":false },
                     {"opciones": "Frida Kahlo","correcta":false}],
-        "respuesta":"Pablo Picasso"
+        "categoria":"Historia"
     }
 ]
