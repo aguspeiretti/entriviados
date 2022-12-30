@@ -1,0 +1,77 @@
+.ranking-container {
+  background: conic-gradient(
+    #fd3 0 7%,
+    #ffa602 0 21%,
+    #e21b3c 0 36%,
+    #ed51aa 0 50%,
+    #864cbf 0 64%,
+    #0572b9 0 78%,
+    #66bf39 0 93%,
+    #fd3 0 100%
+  );
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-container {
+  background-color: #ff9000;
+  border: 3px solid hsla(0, 0%, 100%, 0.314);
+  border-radius: 1em;
+  box-shadow: 2px 5px rgb(0 0 0 / 19%);
+  color: #fff;
+  font-family: Mikado, serif;
+  font-size: 1.5rem;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 13%);
+  text-transform: uppercase;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.resultadoa {
+  width: 50%;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.conenedor-puestos {
+  width: 95%;
+  height: 95%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 50px;
+}
+.jugador {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(185, 185, 185);
+  margin-top: 5px;
+}
+.jugador div {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jugador img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.jugador h3 {
+  font-size: 30px;
+  color: black;
+}
+.uno {
+  display: flex;
+  width: 100%;
+}
+.numero-ranking {
+  color: black;
+}

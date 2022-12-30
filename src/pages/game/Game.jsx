@@ -74,7 +74,7 @@ const Game = () => {
           <NavLink to={"/"}>
             <button className="volver">VOLVER A JUGAR</button>
           </NavLink>
-          <NavLink to={"/"}>
+          <NavLink to={"/Ranking"}>
             <button className="volver">VER RANKING</button>
           </NavLink>
         </div>
