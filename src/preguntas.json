@@ -217,5 +217,437 @@
                      {"opciones":"Charles, George y Louis","correcta":false },
                      {"opciones":"Abraham, Noé y Moises","correcta":false}],
         "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el cromosoma que determina el sexo masculino?",
+        "opciones":[ {"opciones":"El cromosoma V","correcta":false },
+                     {"opciones":"El cromosoma X","correcta":false },
+                     {"opciones":"El cromosoma Y","correcta":false },
+                     {"opciones":"El cromosoma Z","correcta":false },
+                     {"opciones":"El cromosoma M","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Qué líder mundial quedó conocida como 'La Dama de Hierro'?",
+        "opciones":[{"opciones": "Dilma Rouseff","correcta":false },
+                    {"opciones": "Angela Merkel","correcta":false },
+                    {"opciones": "Hillary Clinton","correcta":false },
+                    {"opciones": "Margaret Thatcher","correcta":true },
+                    {"opciones": "Christine Lagarde","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál es la capital de Australia?",
+        "opciones":[ {"opciones":"Perth","correcta":false },
+                     {"opciones":"Canberra","correcta":true },
+                     {"opciones":"Melbourne","correcta":false },
+                     {"opciones":"Sydney","correcta":false },
+                     {"opciones":"Adelaide","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuáles son los nombres de los tres reyes magos?",
+        "opciones":[ {"opciones":"Gaspar, Nicolas y Nataniel","correcta":false },
+                     {"opciones":"Gaspar, Melchor y Baltazar","correcta":true },
+                     {"opciones":"Simon, Judas y Mateo","correcta":false },
+                     {"opciones":"Charles, George y Louis","correcta":false },
+                     {"opciones":"Abraham, Noé y Moises","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".   ¿Cómo se llaman los vasos que transportan la sangre desde el corazón al resto del cuerpo?",
+        "opciones":[ {"opciones":"Arterias","correcta":true },
+                     {"opciones":"Venas","correcta":false },
+                     {"opciones":"v","correcta":false },
+                     {"opciones":"Articulaciones","correcta":false },
+                     {"opciones":"Uréteres","correcta":false}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  Según la leyenda de la fundación de Roma, ¿quién amamantó a los gemelos Rómulo y Remo?",
+        "opciones":[{"opciones": "Una cabra","correcta":false },
+                    {"opciones": "Una vaca","correcta":false },
+                    {"opciones": "Una oveja","correcta":false },
+                    {"opciones": "Una gata","correcta":false },
+                    {"opciones": "Una loba","correcta":true}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿En el exterior de qué edificio famoso en Francia fue construida una enorme pirámide de vidrio?",
+        "opciones":[ {"opciones":"Torre Eiffel","correcta":false },
+                     {"opciones":"Arco del Triunfo","correcta":false },
+                     {"opciones":"Museo de Louvre","correcta":true },
+                     {"opciones":"Grand Palais","correcta":false },
+                     {"opciones":"Petit Palais","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Qué animal gluglutea?",
+        "opciones":[ {"opciones":"El pato","correcta":false },
+                     {"opciones":"La garza","correcta":false },
+                     {"opciones":"La guacamaya","correcta":false },
+                     {"opciones":"La cacatúa","correcta":false },
+                     {"opciones":"El pavo","correcta":true}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Qué sustancia es absorbida por las plantas y expirada por los animales?",
+        "opciones":[ {"opciones":"Oxígeno","correcta":false },
+                     {"opciones":"Nitrógeno","correcta":false },
+                     {"opciones":"Nitrato de sodio","correcta":false },
+                     {"opciones":"Dióxido de hierro","correcta":false },
+                     {"opciones":"Dióxido de carbono","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Cuál artista es conocido como uno de los exponentes máximos del ready-made (objeto-encontrado)?",
+        "opciones":[{"opciones": "Pablo Picasso","correcta":false },
+                    {"opciones": "Salvador Dalí","correcta":false },
+                    {"opciones": "Marcel Duchamp","correcta":true },
+                    {"opciones": "Van Gogh","correcta":false },
+                    {"opciones": "Leonardo de Vinci","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿En qué océano queda Madagascar?",
+        "opciones":[ {"opciones":"Océano Índico","correcta":true },
+                     {"opciones":"Océano Antártico","correcta":false },
+                     {"opciones":"Océano Ártico","correcta":false },
+                     {"opciones":"Océano Atlántico","correcta":false },
+                     {"opciones":"Océano Pacífico","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Quién pintó la bóveda de la capilla sixtina?",
+        "opciones":[ {"opciones":"Miguel Angel","correcta": true },
+                     {"opciones":"Leonardo da Vinci","correcta":false },
+                     {"opciones":"Rafael","correcta":false },
+                     {"opciones":"Boticelli","correcta":false },
+                     {"opciones":"Donatello","correcta":false}],
+        "categoria":"General"
+    },
+    {
+        "pregunta":".  ¿Cuál es el metal cuyo símbolo químico es Au?",
+        "opciones":[ {"opciones":"Aluminio","correcta":false },
+                     {"opciones":"Arsénico","correcta":false },
+                     {"opciones":"Antimonio","correcta":false },
+                     {"opciones":"Actinio","correcta":false },
+                     {"opciones":"Oro","correcta":true}],
+        "categoria":"Ciencias"
+    },
+    {
+        "pregunta":"  ¿Quién fue el creador de la tragedia griega?",
+        "opciones":[{"opciones": "Esquilo","correcta":true },
+                    {"opciones": "Eurípides","correcta":false },
+                    {"opciones": "Homero","correcta":false },
+                    {"opciones": "Plutarco","correcta":false },
+                    {"opciones": "Sófocles","correcta":false}],
+        "categoria":"Historia"
+    },
+    {
+        "pregunta":"¿Cuál de estos países tiene como idioma oficial el francés?",
+        "opciones":[ {"opciones":"Haití","correcta":true },
+                     {"opciones":"Suecia","correcta":false },
+                     {"opciones":"Líbano","correcta":false },
+                     {"opciones":"Andorra","correcta":false },
+                     {"opciones":"Mauritania","correcta":false}],
+        "categoria":"Geografia"
+    },
+    {
+        "pregunta":" ¿Cuántos grados son necesarios para que dos ángulos sean complementarios?",
+        "opciones":[ {"opciones":"45 º","correcta":false },
+                     {"opciones":"60 º","correcta":false },
+                     {"opciones":"90 º","correcta":true },
+                     {"opciones":"80 º","correcta":false },
+                     {"opciones":"360 º","correcta":false}],
+        "categoria":"General"
     }
 ]

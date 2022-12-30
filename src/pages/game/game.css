@@ -137,7 +137,8 @@
     overflow: scroll;
   }
   .answers button {
-    font-size: 15px;
+    width: 90%;
+    font-size: 20px;
   }
   .info-container-terminado {
     width: 90%;
