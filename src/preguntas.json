@@ -7,8 +7,7 @@
                      { "opciones" :"Tiene 7 litros" ,"correcta":false} ,
                      { "opciones" :"Tiene 0,5 litros" ,"correcta":false}],
         "categoria":"Ciencias"
-    },
-    
+    },    
     {
         "pregunta":"¿Quién es el autor de la frase Pienso, luego existo?",
         "opciones":[ {"opciones" :"Platón" ,"correcta":false},
@@ -324,7 +323,7 @@
                      {"opciones":"60 º","correcta":false },
                      {"opciones":"90 º","correcta":true },
                      {"opciones":"80 º","correcta":false },
-                     {"opciones":"360 º","correcta":false}],
+                     {"opciones":"360º","correcta":false}],
         "categoria":"General"
     }
 ]
