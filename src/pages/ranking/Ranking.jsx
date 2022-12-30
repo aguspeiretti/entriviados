@@ -4,10 +4,13 @@ import foto1 from "../../assets/perfil.jpg";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Ranking = () => {
-  const { user, isAuthenticated } = useAuth0();
+  const { user } = useAuth0();
+  const puntos = localStorage.getItem("puntos");
+
+  const usuario = { nombre: user.name, img: user.picture, puntuacion: puntos };
 
   const ranking = [
-    { nombre: user.name, img: user.picture, puntuacion: 12 },
+    usuario,
     { nombre: "Melina", img: foto1, puntuacion: 15 },
     { nombre: "Ivan", img: foto1, puntuacion: 4 },
     { nombre: "Julieta", img: foto1, puntuacion: 16 },
@@ -40,7 +43,7 @@ const Ranking = () => {
               <div>
                 <span className="numero-ranking">{index + 1}</span>
               </div>
-              <div>
+              <div className="campo-nombre">
                 <h3>{el.nombre}</h3>
               </div>
               <div>

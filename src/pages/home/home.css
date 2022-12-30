@@ -59,7 +59,7 @@
 .texto-container {
   position: absolute;
   width: 600px;
-  top: 200px;
+  top: 20%;
   left: -10vw;
   font-size: 1vw;
   color: white;

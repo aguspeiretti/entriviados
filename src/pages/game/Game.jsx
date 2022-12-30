@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./game.css";
 import preguntas from "../../preguntas.json";
 import { NavLink } from "react-router-dom";
-
+import { useAuth0 } from "@auth0/auth0-react";
 const Game = () => {
+  const { user, isAuthenticated } = useAuth0();
   const category = localStorage.getItem("ELIGE UNA CATEGORIA");
   const time = localStorage.getItem("ELIGE LOS SEGUNDOS");
   const [preguntaActual, setPreguntaActual] = useState(0);
@@ -66,17 +67,31 @@ const Game = () => {
 
   // si el juego termino
 
+  const pasarPuntuacion = () => {
+    localStorage.setItem("puntos", puntuacion);
+  };
+
   if (isFinished)
     return (
       <div className="game-container">
-        <div className="info-container resultado">
-          obtuviste {puntuacion} de {categoriaElegida.length}
+        <div className="info-container resultadoa">
+          <p>
+            obtuviste {puntuacion} de {categoriaElegida.length}
+          </p>
           <NavLink to={"/"}>
             <button className="volver">VOLVER A JUGAR</button>
           </NavLink>
-          <NavLink to={"/Ranking"}>
-            <button className="volver">VER RANKING</button>
-          </NavLink>
+          {isAuthenticated ? (
+            <NavLink to={"/Ranking"}>
+              <button onClick={pasarPuntuacion} className="volver">
+                VER RANKING
+              </button>
+            </NavLink>
+          ) : (
+            <div className="logueate">
+              <p>LOGUEATE PARA VER EL RANKING</p>
+            </div>
+          )}
         </div>
       </div>
     );
