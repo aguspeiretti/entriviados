@@ -25,7 +25,7 @@ const Dropdawm = ({ titulo, categorias }) => {
         <DropdownToggle caret> {titulo} </DropdownToggle>
         <DropdownMenu>
           {categorias?.map((el) => (
-            <DropdownItem>
+            <DropdownItem value={el} onClick={elegido}>
               "
               <button value={el} onClick={elegido} className="boton-dropdown">
                 {el}

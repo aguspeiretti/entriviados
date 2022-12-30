@@ -71,10 +71,13 @@ const Game = () => {
       <div className="game-container">
         <div className="info-container resultado">
           obtuviste {puntuacion} de {categoriaElegida.length}
+          <NavLink to={"/"}>
+            <button className="volver">VOLVER A JUGAR</button>
+          </NavLink>
+          <NavLink to={"/"}>
+            <button className="volver">VER RANKING</button>
+          </NavLink>
         </div>
-        <NavLink to={"/"}>
-          <button className="volver">VOLVER A JUGAR</button>
-        </NavLink>
       </div>
     );
 

@@ -82,3 +82,7 @@
   text-shadow: 2px 2px 2px rgb(0 0 0 / 13%);
   text-transform: uppercase;
 }
+.resultado {
+  width: 50%;
+  font-size: 40px;
+}

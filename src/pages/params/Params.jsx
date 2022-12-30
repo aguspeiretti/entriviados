@@ -9,14 +9,7 @@ const Params = () => {
 
   const nombre = localStorage.getItem("nombre");
 
-  const categorias = [
-    "Entretenimiento",
-    "Geografia",
-    "Ciencias",
-    "Deportes",
-    "Historia",
-    "Random",
-  ];
+  const categorias = ["Geografia", "Ciencias", "General", "Historia", "Random"];
   const niveles = ["FACIL", "INTERMEDIO", "DIFICIL", "EXPERTO", "RANDOM"];
 
   const segundos = [10, 20, 30];
