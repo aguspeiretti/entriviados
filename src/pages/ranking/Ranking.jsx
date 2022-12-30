@@ -1,10 +1,13 @@
 import React from "react";
 import "./ranking.css";
 import foto1 from "../../assets/perfil.jpg";
+import { useAuth0 } from "@auth0/auth0-react";
 
-const ranking = () => {
+const Ranking = () => {
+  const { user, isAuthenticated } = useAuth0();
+
   const ranking = [
-    { nombre: "Pablo", img: foto1, puntuacion: 12 },
+    { nombre: user.name, img: user.picture, puntuacion: 12 },
     { nombre: "Melina", img: foto1, puntuacion: 15 },
     { nombre: "Ivan", img: foto1, puntuacion: 4 },
     { nombre: "Julieta", img: foto1, puntuacion: 16 },
@@ -54,4 +57,4 @@ const ranking = () => {
   );
 };
 
-export default ranking;
+export default Ranking;
