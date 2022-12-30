@@ -149,11 +149,11 @@
 @media (max-width: 1050px) {
   .arrow-container {
     left: 0;
-    top: -200px;
+    top: -250px;
   }
 
   .texto-container {
-    top: 0;
+    top: 100px;
     left: 0;
     width: 100vw;
     height: 100vh;
@@ -179,7 +179,9 @@
     align-items: center;
     text-align: center;
   }
-
+  .btn-login span {
+    display: none;
+  }
   .texto-container button {
     margin-top: 20px;
   }

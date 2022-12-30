@@ -66,10 +66,7 @@
   justify-content: center;
   align-items: center;
 }
-.jugador img {
-  height: 90%;
-  border-radius: 50%;
-}
+
 .jugador h3 {
   font-size: 40%;
   color: black;
@@ -89,4 +86,24 @@
   align-items: center;
   height: 90%;
   width: 90%;
+}
+.foto-jugador {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 750px) {
+  .info-container {
+    width: 90%;
+    padding: 10px;
+  }
+  .conenedor-puestos {
+    width: 95%;
+    padding: 10px;
+  }
+  .jugador {
+    width: 90%;
+  }
 }

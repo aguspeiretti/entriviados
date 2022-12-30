@@ -4,7 +4,7 @@ import preguntas from "../../preguntas.json";
 import { NavLink } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 const Game = () => {
-  const { user, isAuthenticated } = useAuth0();
+  const { isAuthenticated } = useAuth0();
   const category = localStorage.getItem("ELIGE UNA CATEGORIA");
   const time = localStorage.getItem("ELIGE LOS SEGUNDOS");
   const [preguntaActual, setPreguntaActual] = useState(0);
@@ -63,7 +63,7 @@ const Game = () => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [preguntaActual, tiempoRestante]);
+  }, [categoriaElegida.length, preguntaActual, tiempoRestante, time]);
 
   // si el juego termino
 
@@ -74,7 +74,7 @@ const Game = () => {
   if (isFinished)
     return (
       <div className="game-container">
-        <div className="info-container resultadoa">
+        <div className="info-container-terminado">
           <p>
             obtuviste {puntuacion} de {categoriaElegida.length}
           </p>
@@ -98,7 +98,7 @@ const Game = () => {
 
   return (
     <div className="game-container">
-      <div className="info-container">
+      <div className="info-container-juego">
         <div>
           <div className="first-div">
             <div className="number-cuestion">
